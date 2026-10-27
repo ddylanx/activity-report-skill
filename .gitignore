@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.html
+*.json
+!examples/sample-report.html
+examples/sample_activities.csv
