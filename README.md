@@ -12,6 +12,8 @@ Give Claude (or any agent that supports skills) your **Strava export, Garmin CSV
 - **The month your habit really changed.** It finds the turning point automatically.
 - Your golden hour, streaks, comebacks, year-over-year change and race predictions.
 
+![Sample report](examples/sample-report.png)
+
 It is **100% free and open source**, and it runs locally: your data never leaves your computer. The only dependency is pandas.
 
 ## Use it as a skill
@@ -19,7 +21,7 @@ It is **100% free and open source**, and it runs locally: your data never leaves
 **Claude Code**
 
 ```bash
-git clone https://github.com/<you>/<this-repo> ~/.claude/skills/activity-report-repo
+git clone https://github.com/ddylanx/activity-report-skill ~/.claude/skills/activity-report-repo
 ln -s ~/.claude/skills/activity-report-repo/activity-report ~/.claude/skills/activity-report
 ```
 
